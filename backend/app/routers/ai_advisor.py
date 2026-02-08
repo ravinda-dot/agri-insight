@@ -9,7 +9,7 @@ router = APIRouter(
 )
 
 # Configuration for the Gemini API
-GEMINI_API_KEY = "AIzaSyDoUaAB-2fk0pH3qIPrAysUaRO8qBjuktg" # Handled by the execution environment
+GEMINI_API_KEY = "gemini api key" # Handled by the execution environment
 GEMINI_API_URL = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent?key={GEMINI_API_KEY}"
 
 # --- This Pydantic model is for the weather page advisor ---
