@@ -4,8 +4,8 @@ from typing import List, Dict, Any
 import httpx
 from datetime import date, timedelta
 
-API_KEY = "579b464db66ec23bdd000001cdd3946e44ce4aad7209ff7b23ac571b"
-API_URL = "https://api.data.gov.in/resource/9ef84268-d588-465a-a308-a864a43d0070"
+API_KEY = "your genrated key from the markreted website"
+API_URL = "....from the market website url"
 
 async def fetch_prices_from_agmarknet(
     state: str, district: str, market: str
